@@ -1,152 +1,78 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鉄道音収録Collection</title>
-</head>
-<body>
-    <h1>鉄道音収録Collection</h1>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>鉄道音収録Collection</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="favicon.JPEG" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">鉄道音収録Collection</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">ホーム</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="station.html">駅メロ</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="vvvf.html">VVVF</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="sekkin.html">接近放送</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="syanai.html">車内放送</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="sonota.html">その他</a>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <button class="btn btn-primary" id="sidebarToggle">メニューを開く</button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item active"><a class="nav-link" href="index.html">ホーム</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <img src="shinkansen.JPEG">
+                    <h1>鉄道音収録Collection</h1>
+                    <hr>
 
-    <h2>駅メロ</h2>
+                    <p>様々な鉄道の音を収録したものを掲載しています。</p>
+                    <p>なお、すべてiPhoneのマイクでの収録です。雑音・放送の被り等が多めですが、そこも含めて鉄道の音。</p>
 
-    <h3>小田原駅</h3>
-    <p>３番線 「お猿のかごや V1」</p>
-    <audio controls>
-        <source src="odawara_3.mp3">
-      </audio>
+                    <br>
 
-    <p>４番線「お猿のかごや V2」</p>
-    <audio controls>
-        <source src="odawara_4.mp3">
-    </audio>
+                    <p>左のメニューもしくは下のボタンから選択してください。</p>
 
-    <p>５番線「お猿のかごや V3」</p>
-    <audio controls>
-        <source src="odawara_5.mp3">
-    </audio>
+                    <button onclick="location.href='station.html'">駅メロ</button>
 
-    <p>６番線「お猿のかごや V4」</p>
-    <audio controls>
-        <source src="odawara_6.mp3">
-    </audio>
+                    <button onclick="location.href='vvvf.html'">VVVF</button>
 
-    <br>
+                    <button onclick="location.href='sekkin.html'">接近放送</button>
 
-    <h3>茅ヶ崎駅</h3>
-    <P>５番線「希望の轍（イントロ）」</p>
-    <audio controls>
-        <source src="chigasaki_5.mp3">
-    </audio>
+                    <button onclick="location.href='syanai.html'">車内放送</button>
 
-    <p>６番線「希望の轍（サビ）」</p>
-    <audio controls>
-        <source src="chigasaki_6.mp3">
-    </audio>
+                    <button onclick="location.href='sonota.html'">その他</button>
 
-    <br>
+                    <br><br>
 
-    <h3>舞浜駅</h3>
-    <p>１番線「輝く未来」
-    </p>
-    <audio controls>
-        <source src="maihama_1.mp3">
-    </audio>
-
-    <p>２番線「Let It Go ~ありのままで~」</p>
-    <audio controls>
-        <source src="maihama_2.mp3">
-    </audio>
-
-    <p>[現在不使用]１番線「君の願いが世界を輝かす」</p>
-    <audio controls>
-        <source src="maihama_1_old.mp3">
-    </audio>
-
-    <p>[現在不使用]２番線「Living in Color」</p>
-    <audio controls>
-        <source src="maihama_2_old.mp3">
-    </audio>
-
-    <br>
-
-    <h3>東京駅</h3>
-    <p>５番線「JR-SH3-1」</p>
-    <audio controls>
-        <source src="tokyo_5.mp3">
-    </audio>
-
-    <p>６番線「JR-SH5-1」</p>
-    <audio controls>
-        <source src="tokyo_6.mp3">
-    </audio>
-
-    <br>
-
-    <h3>池袋駅</h3>
-    <p>１番線「Mellow time」</p>
-    <audio controls>
-        <source src="ikebukuro_1.mp3">
-    </audio>
-
-    <p>２番線「春 高飛びVer」</p>
-    <audio controls>
-        <source src="ikebukuro_2.mp3">
-    </audio>
-
-    <p>３番線「小川のせせらぎ V1」</p>
-    <audio controls>
-        <source src="ikebukuro_3.mp3">
-    </audio>
-
-    <p>４番線「高原」</p>
-    <audio controls>
-        <source src="ikebukuro_4.mp3">
-    </audio>
-
-    <p>６番線「ビックカメラの歌 ６番線Ver」</p>
-    <audio controls>
-        <source src="ikebukuro_6.mp3">
-    </audio>
-
-    <p>７番線「ビックカメラの歌 ７番線Ver」</p>
-    <audio controls>
-        <source src="ikebukuro_7.mp3">
-    </audio>
-
-    <br>
-
-    <h3>高輪ゲートウェイ駅</h3>
-    <p>１番線「スイートコール」</p>
-    <audio controls>
-        <source src="takanawa-gateway_1.mp3">
-    </audio>
-
-    <p>３番線「フラワーショップ」</p>
-    <audio controls>
-        <source src="takanawa-gateway_3.mp3">
-    </audio>
-
-    <p>４番線「恋の通勤列車」</p>
-    <audio controls>
-        <source src="takanawa-gateway_4.mp3">
-    </audio>
-
-    <br>
-
-    <h3>関内駅</h3>
-    <p>１番線「熱き星たちよ VerA」</p>
-    <audio controls>
-        <source src="kannai_1.mp3">
-    </audio>
-
-    <p>２番線「熱き星たちよ VerB」</p>
-    <audio controls>
-        <source src="kannai_2.mp3">
-    </audio>
-
-    <hr>
-    <p>※収録は安全に配慮して行っています。</p>
-
-</body>
+                    <p>※収録は安全に配慮して行っています。</p>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
